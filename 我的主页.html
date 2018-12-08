@@ -24,25 +24,7 @@ body{
 	}
 
 </style>
-<script language=javascript>
-function toopen(){
-    if(document.getElementById("password").value=="wjy123"){
-           document.forms[0].action="aaa.html";
-           return true;
-        }else{
-        alert("密码不正确！")
-        return false;
-        }
-    }
-</script>
 
-<form method="post" name="bb" action="aaa.html">
-<label for="password">
- <h3 style="color:#FFF" align="center">请输入访问密码：
- <input type="password" id="password" placeholder="请输入密码" value="" class="loginInput" name="password" size="20" maxlenth="8" />
- <input type="submit" value="登陆" class="loginBtn" onclick="return toopen();"> 
-<h3/>
-<form/>
 
  <table  cellspacing="0"cellpadding="5" class="datelist1"align="center" width="600">
   <caption align="center"><h1>我的个人主页</h1></caption>
