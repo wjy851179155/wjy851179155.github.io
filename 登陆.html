@@ -1,0 +1,30 @@
+
+<html>
+<head>
+    <title>个人主页登陆</title>
+<script language=javascript>
+function toopen(){
+    if(document.getElementById("password").value=="123456"){
+           document.forms[0].action="aaa.html";
+           return true;
+        }else{
+        alert("密码不正确！")
+        return false;
+        }
+    }
+</script>
+</head>
+
+<form method="post" action="aaa.html" name="myform" >
+               <center><label for="password">请输入密码<center/>
+                <input type="password" id="password" name="password" class="loginInput" placeholder="请输入密码" value="" 
+ 
+/>         
+            
+                <input type="submit" value="登陆" class="loginBtn" onClick="return toopen();">            
+                     </form>
+            
+       
+    
+</body>
+</html>
